@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 #include "prefix.h"
+
 using namespace std;
 
 inline void INC(int* x);
