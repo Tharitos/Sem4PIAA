@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+project(LAB5)
+set(CMAKE_CXX_FLAGS "-Wall -std=c++11")
+
+find_package(GTest REQUIRED)
+include_directories(include ${GTEST_INCLUDE_DIRS})
+set(Source source/Aho.cpp source/Bohr.cpp source/Source.cpp)
+set(SourceTest source/Aho.cpp source/Bohr.cpp source/SourceTest.cpp)
+add_executable(Source ${Source})
+add_executable(SourceTest ${SourceTest})
+target_link_libraries(SourceTest ${GTEST_LIBRARIES} pthread)
