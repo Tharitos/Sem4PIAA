@@ -63,12 +63,12 @@ TEST_P(PrefixTest, PrefixTestTrue)
 	ASSERT_TRUE(prefix(GetParam().input) == GetParam().output);
 }
 
-TEST_P(KMPTest, KMPTestTrue) 
+TEST_P(KMPTest, KMPTestTrue)
 {
 	ASSERT_TRUE(kmp(GetParam().P, GetParam().T, GetParam().multiplier) == GetParam().res);
 }
 
-TEST_P(NaiveTest, NaiveTestTrue) 
+TEST_P(NaiveTest, NaiveTestTrue)
 {
 	ASSERT_TRUE(naive(GetParam().P, GetParam().T) == GetParam().res);
 }
@@ -77,8 +77,8 @@ TEST_P(NaiveTest, NaiveTestTrue)
 int main(int argc, char *argv[])
 {
 	::testing::InitGoogleTest(&argc, argv);
-	RUN_ALL_TESTS();
+
 	system("PAUSE");
-	return 0;
+	return RUN_ALL_TESTS();
 }
-//проверка с тестами
+//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ

@@ -1,4 +1,4 @@
-#include "include/kmp.h"
+#include "include/KMP.h"
 #include "include/prefix.h"
 
 using namespace std;
