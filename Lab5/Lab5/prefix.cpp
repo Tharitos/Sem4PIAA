@@ -9,7 +9,6 @@ void INC(int* x) {
 
 bool CMP(const char& a, const char& b, int* counter) {
 	INC(counter);
-	//  cout << a << " = " << b << endl;
 	return a == b;
 }
 

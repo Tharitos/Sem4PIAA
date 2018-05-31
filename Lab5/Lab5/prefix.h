@@ -1,4 +1,3 @@
-#pragma once
 #ifndef PREFIX_H
 #define PREFIX_H
 
