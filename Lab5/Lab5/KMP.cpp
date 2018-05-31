@@ -1,5 +1,5 @@
-#include "kmp.h"
-#include "prefix.h"
+#include "include/kmp.h"
+#include "include/prefix.h"
 
 using namespace std;
 

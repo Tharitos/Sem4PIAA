@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8)
+project(LAB5)
+set(CMAKE_CXX_FLAGS "-Wall -std=c++11")
+
+find_package(GTest REQUIRED)
+include_directories(include ${GTEST_INCLUDE_DIRS})
+set(Source prefix.cpp KMP.cpp Source.cpp)
+set(SourceTest prefix.cpp KMP.cpp SourceTest.cpp)
+set(SourceShift prefix.cpp KMP.cpp SourceShift.cpp)
+add_executable(Source ${Source})
+add_executable(SourceTest ${SourceTest})
+add_executable(SourceShift ${SourceShift})
+target_link_libraries(SourceTest ${GTEST_LIBRARIES} pthread)

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "KMP.h"
+#include "include/KMP.h"
 
 using namespace std;
 int main(int argc, char *argv[])

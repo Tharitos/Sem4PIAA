@@ -1,5 +1,5 @@
-#include "prefix.h"
-#include "KMP.h"
+#include "include/prefix.h"
+#include "include/KMP.h"
 #include "gtest/gtest.h"
 
 typedef struct PrefixTestType {

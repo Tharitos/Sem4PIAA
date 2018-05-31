@@ -157,8 +157,8 @@
     <ClInclude Include="gtest\internal\gtest-string.h" />
     <ClInclude Include="gtest\internal\gtest-tuple.h" />
     <ClInclude Include="gtest\internal\gtest-type-util.h" />
-    <ClInclude Include="KMP.h" />
-    <ClInclude Include="prefix.h" />
+    <ClInclude Include="include\KMP.h" />
+    <ClInclude Include="include\prefix.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lab5.vcxproj.filters.txt" />
